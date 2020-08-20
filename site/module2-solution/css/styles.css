@@ -24,9 +24,10 @@ body {
 }
 h1 {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .menuBox {
   border: 2px solid black;
@@ -38,7 +39,7 @@ h1 {
 }
 .menuItemName {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: bold;
   border: 2px solid black;
   margin: 0;
@@ -109,5 +110,9 @@ h1 {
   }
   .chicken, .beef, .sushi {
     width: 40%;
+  }
+  .row {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
