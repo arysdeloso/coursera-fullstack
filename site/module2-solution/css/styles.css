@@ -1,3 +1,9 @@
+/*
+  Coursera Full Stack - Module 2 Solution
+  by Arys Poynter Deloso
+  21 August 2020
+*/
+
 /********************/
 /*   Base Styles    */
 /*------------------*/
@@ -6,14 +12,13 @@ body {
 }
 * {
   font-family: sans-serif;
-  box-sizing: border-box;
+  box-sizing: border-box; /* width and height includes the border, paddings, margin */
   margin: 0;
   padding: 0;
 }
 .row {
-  width: 100%;
-  box-sizing: border-box;
-  padding-left: 10px;
+  width: 100%; /* the row container uses the full device width */
+  padding-left: 10px;  /* pad left and right to equalize all horizontal spaces */
   padding-right: 10px;
   margin: 0;
 }
