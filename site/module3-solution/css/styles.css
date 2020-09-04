@@ -1,0 +1,43 @@
+/* COLOR SCHEME
+rgba(44, 53, 49, 1) OR #2C3531 - dark teal/green
+rgba(17, 100, 102, 1) OR #116466 - teal like
+rgba(217, 176, 140, 1) OR #D9B08C - dark peach
+rgba(255, 203, 154, 1) OR #FFCB9A - light peach
+rgba(209, 232, 226, 1) OR #D1E8E2 - very light teal
+*/
+
+body {
+  background: rgba(17, 100, 102, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+/* HEADER */
+.navbar {
+  background: rgba(44, 53, 49, 1);
+}
+.navbar-header a.navbar-brand {
+  color: rgba(255, 255, 255, 1);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-weight: bolder;
+}
+.navbar-header a.navbar-brand:hover {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.navbar-nav li.menu-title>a {
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+  text-align: center;
+}
+
+ul.navbar-nav {
+  background: rgba(209, 232, 226, 1);
+}
+.nav li:hover {
+  background: rgba(217, 176, 140, 1);
+}
+
+/* MAIN CONTENTS */
+section p {
+  padding: 0 25px;
+}
