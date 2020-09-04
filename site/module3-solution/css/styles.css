@@ -14,11 +14,13 @@ body {
 /* HEADER */
 .navbar {
   background: rgba(44, 53, 49, 1);
+  padding: 20px;
 }
 .navbar-header a.navbar-brand {
   color: rgba(255, 255, 255, 1);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-weight: bolder;
+  font-size: 3em;
 }
 .navbar-header a.navbar-brand:hover {
   color: rgba(255, 255, 255, 1);
@@ -26,8 +28,10 @@ body {
 }
 .navbar-nav li.menu-title>a {
   color: rgba(0, 0, 0, 1);
+  font-size: 2.0em;
   font-weight: bold;
   text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 ul.navbar-nav {
@@ -38,6 +42,29 @@ ul.navbar-nav {
 }
 
 /* MAIN CONTENTS */
-section p {
+h2, h3 {
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2.0em;
+}
+
+section.menu-contents {
+  background: rgba(255, 203, 154, 1);
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+div.menu-info p {
   padding: 0 25px;
+}
+a span {
+  margin-right: 5px;
 }
