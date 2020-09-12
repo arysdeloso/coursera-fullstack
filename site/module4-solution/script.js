@@ -1,4 +1,4 @@
-(function (window) {
+(function () {
   // *******************************
   // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
   // *******************************
@@ -67,4 +67,4 @@
       helloSpeaker.speak(names[index]);
     }
   }
-})(window);
+})();
