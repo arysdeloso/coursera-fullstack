@@ -84,7 +84,9 @@ showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
   // [...], // ***** <---- TODO: STEP 1: Substitute [...] ******
-  buildAndShowHomeHTML,
+  function (categories) {
+      buildAndShowHomeHTML(categories),
+  },
   true); // Explicitly setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
