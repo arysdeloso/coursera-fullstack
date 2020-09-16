@@ -127,9 +127,9 @@ function buildAndShowHomeHTML (categories) {
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
-      console.log("Main content before: ", getElementById('main-content').content);
+      console.log("Main content before: ", document.getElementById('main-content').content);
       insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
-      console.log("Main content after: ", getElementById('main-content').content);
+      console.log("Main content after: ", document.getElementById('main-content').content);
 
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
